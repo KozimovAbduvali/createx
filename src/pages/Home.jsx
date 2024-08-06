@@ -1,9 +1,13 @@
 import React from 'react'
 import Hero from '../components/Home/Hero'
+import ConstructionBureau from '../components/Home/ConstructionBureau'
 
 function Home() {
   return (
-    <Hero />
+    <div>
+      <Hero />
+      <ConstructionBureau />
+    </div>
   )
 }
 
