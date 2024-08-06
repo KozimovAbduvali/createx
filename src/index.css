@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply font-ubuntu overflow-x-hidden
+  }
+}
+.swiper-pagination {
+  @apply relative flex max-w-7xl mx-auto px-4 lg:px-6 -mt-20 pb-24
+}
+
+.swiper-pagination-bullet {
+  @apply bg-transparent border-b border-white/80 text-white/80 text-lg lg:text-[28px] font-bold w-full h-12 lg:h-14 text-left rounded-none p-3
+}
+
+.swiper-pagination-bullet-active {
+  @apply border-white text-white
+}
